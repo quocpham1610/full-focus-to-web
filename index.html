@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Focus</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./build/reset.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  
+    <link rel="stylesheet" href="/build/tailwind.css">
+    <link rel="stylesheet" href="/build/app.css">
+    <style>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 20px; /* Width of the scrollbar */
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Color of the track */
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #00ffcc; /* Color of the scroll thumb */
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #00cc99; /* Color of the scroll thumb on hover */
+        }
+        /* Borders for chef quote and paragraph */
+        .quote-border {
+            border: 2px solid #00cc99;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .paragraph-border {
+            border: 2px solid #00cc99;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container flex items-center justify-between">
+            <h1 class="flex items-center logo">
+                <img src="https://images-workbench.99static.com/9gRBxf9ZGc9hx79oE_nphe23h-Y=/99designs-contests-attachments/38/38151/attachment_38151294" alt="Logo" class="h-8 w-auto mr-2"> 
+                Food With Quoc
+          <nav class="ml-96">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Recipes</a></li>
+         
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <article class="container mx-auto mt-12">
+        <div class="flex items-center justify-center mt-8">
+            <img src="http://foodandtravelgermany.de/assets/img/content/afterhours/Gordon_Headshot.jpg" alt="Professional Chef" class="w-64 h-64 rounded-full object-cover">
+        </div>
+        <div class="text-center">
+            <h2 class="text-3xl text-green-500 font-semibold mb-4">Meet Our Master Chef</h2>
+            <p class="text-blue-400 text-2xl " >Cooking is about passion, so it may look slightly temperamental in a way that it's too assertive to the naked eye..</p>
+            <div class="mt-5">
+                <p class="text-4xl text-amber-900 font-semibold font-serif">Chef Gordon Ramsey</p>
+            </div>
+        </div>
+    </article>
+      
+    
+    <div class="pt-12">
+        <h1 class="text-center text-cyan-500 text-5xl font-semibold mb-5 ">Cook with us</h1>
+        <h2 class="text-center text-gray-400 text-xl font-normal mb-10">Stay focus and cook good</h2>
+        <div class="grid grid-cols-3 gap-x-8 max-w-6xl mx-auto">
+            <div>
+                <div class="h-96">
+                    <img src="https://plus.unsplash.com/premium_photo-1681406994530-3de7406c21a5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
+                    class="w-full h-full rounded object-cover"
+                    >
+                </div>
+                <h3 class="text-center font-medium text-orange-400 text-xl">Feel the spices</h3>
+                <span class="block text-center text-orange-400 text-s">230 cuisines</span>
+            </div>
+            <div>
+                <div class="h-96">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
+                    class="w-full h-full rounded object-cover"
+                    >
+                </div>
+                <h3 class="text-center font-medium text-cyan-300 text-xl">Feel the heat</h3>
+                <span class="block text-center text-cyan-300 text-s">167 cuisines</span>
+            </div>
+            <div>
+                <div class="h-96">
+                    <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""
+                    class="w-full h-full rounded object-cover"
+                    >
+                </div>
+                <h3 class="text-center font-medium text-orange-400 text-xl">Stay healthy</h3>
+                <span class="block text-center text-orange-400 text-s">302 cuisines</span>
+            </div>
+        </div>
+    </div>
+    <div class="py-16">
+        <p class="text-center text-white text-lg">Food is more than just sustenance; it's a universal language that transcends borders and cultures. It tantalizes our taste buds, comforts our souls, and brings people together in shared moments of joy and celebration. From the vibrant spices of Indian curry to the delicate flavors of French pastries, each dish tells a unique story of tradition, innovation, and love. Food nourishes not only our bodies but also our spirits, igniting our senses and fostering connections that last a lifetime. So let us savor each bite, cherish each meal, and embrace the endless possibilities that the world of food has to offer.</p>
+    </div>
+    <div class="image-slider">
+        <div class="image-item">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+              alt="" />
+          </div>
+          <h3 class="image-title">Yummy</h3>
+        </div>
+        <div class="image-item">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=710&q=80"
+              alt="" />
+          </div>
+          <h3 class="image-title">Delicious</h3>
+        </div>
+        <div class="image-item">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80"
+              alt="" />
+          </div>
+          <h3 class="image-title">Elegant</h3>
+        </div>
+        <div class="image-item">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80"
+              alt="" />
+          </div>
+          <h3 class="image-title">Tasteful</h3>
+        </div>
+        <div class="image-item">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=928&q=80"
+              alt="" />
+          </div>
+          <h3 class="image-title">Extrodinary</h3>
+        </div>
+      </div>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="./app.js"></script>
+      <div class="banner bg-yellow-400 py-8 text-center mt-4">
+        <h2 class="text-2xl font-semibold text-gray-800">Discover More</h2>
+        <p class="text-gray-600">Explore our latest recipes and cooking tips</p>
+        <a href="#" class="mt-4 inline-block px-6 py-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600">Explore Now</a>
+    </div>
+    <footer class="bg-yellow-500 text-white py-16">
+        <div class="footer-container container mx-auto flex justify-between">
+            <div class="social-media mb-12">
+                <h3 class="text-xl font-semibold mb-2">Connect with Us:</h3>
+                <ul class="social-icons flex justify-center">
+                    <li class="mr-4"><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+                    <li class="mr-4"><a href="#"><img src="chi.png" alt="Twitter"></a></li>
+                    <li class="mr-4"><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+                </ul>
+                <p class="text-lg">Sign up for our newsletter for delicious updates and recipes!</p>
+            </div>
+            <div class="explore">
+                <h3 class="text-xl font-semibold mb-4">Explore More:</h3>
+                <ul>
+                    <li><a href="#" class="text-lg">Browse our menu</a></li>
+                    <li><a href="#" class="text-lg">Learn about our story</a></li>
+                    <li><a href="#" class="text-lg">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <h3 class="text-xl font-semibold mb-4">Visit Us:</h3>
+                <p class="text-lg">123 Main Street<br>City, State, ZIP Code</p>
+            </div>
+        </div>
+        <div class="copyright text-center mt-8">
+            <p class="text-lg mb-2">Stay Hungry, Stay Curious!</p>
+            <p class="text-lg">&copy; Food with Quoc <span id="year"></span></p>
+        </div>
+    </footer>
+    
+    
+      
+</body>
+</html>
